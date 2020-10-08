@@ -1,8 +1,8 @@
 fun main(args: Array<String>){
 
-    var name = "Eva"
-    var lastName = "Lancer"
-    var dogName = "Rufus"
+    val name = "Eva"
+    val lastName = "Lancer"
+    val dogName = "Rufus"
 
     print(name + " " + lastName + "\n")
     print(dogName)

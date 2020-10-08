@@ -1,8 +1,8 @@
 fun main(args: Array<String>){
 
-    fizzBuzz()
-    fizzBuzzUserInput()
-    fizzBuzzStepsUserInput()
+    //fizzBuzz()
+    //fizzBuzzUserInput()
+    //fizzBuzzStepsUserInput()
     reverseFizzBuzzUserInput()
 }
 
@@ -14,15 +14,15 @@ fun fizzBuzz() {
             println("Fizz")
         } else if (i % 5 == 0) {
             println("Buzz")
-        } else{}
-        println(i)
+        } else
+            println(i)
     }
 }
 
 fun fizzBuzzUserInput() {
 
     println("Enter a number...")
-    var num = readLine()?.toInt()
+    val num = readLine()?.toInt()
 
     for (i in 1..num!!) {
         if (i % 3 == 0 && i % 5 == 0) {
@@ -31,14 +31,14 @@ fun fizzBuzzUserInput() {
             println("Fizz")
         } else if (i % 5 == 0) {
             println("Buzz")
-        } else{}
-        println(i)
+        } else
+            println(i)
     }
 }
 
 fun fizzBuzzStepsUserInput() {
     println("Enter a number...")
-    var num = readLine()?.toInt()
+    val num = readLine()?.toInt()
 
     for (i in 1..num!! step 2) {
         if (i % 3 == 0 && i % 5 == 0) {
@@ -47,8 +47,8 @@ fun fizzBuzzStepsUserInput() {
             println("Fizz")
         } else if (i % 5 == 0) {
             println("Buzz")
-        } else{}
-        println(i)
+        } else
+            println(i)
     }
 }
 
@@ -69,7 +69,7 @@ fun reverseFizzBuzzUserInput() {
             println("Fizz")
         } else if (i % 5 == 0) {
             println("Buzz")
-        } else{}
-        println(i)
+        } else
+            println(i)
     }
 }
